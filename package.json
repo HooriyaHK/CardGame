@@ -1,0 +1,16 @@
+{
+  "name": "project2024",
+  "version": "1.0.0",
+  "main": "home.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}

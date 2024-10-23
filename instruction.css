@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+    position: fixed;
+}
+
+.inst-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+

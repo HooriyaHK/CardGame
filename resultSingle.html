@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Result</title>
+    <link rel="stylesheet" href="resultMulti.css"/>
+</head>
+<body>
+    <div class="result-container">
+        <h1 id="resultMessage"></h1>
+        <button id="replayButton">Replay</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // get result fromlocalStorage
+            const resultMessage = localStorage.getItem('gameResult') || "No Result";
+
+            // output display
+            document.getElementById('resultMessage').textContent = resultMessage;
+
+            // added back button that leads to home again
+            document.getElementById('replayButton').addEventListener('click', function() {
+                window.location.href = 'home.html';
+            });
+        });
+    </script>
+</body>
+</html>
