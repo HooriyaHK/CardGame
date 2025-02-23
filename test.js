@@ -1,4 +1,4 @@
-/** 
+
 const assert = require('assert');
 // This was learnt through diffenrt sources.
 const { shuffle, shuffleCards } = require('../gameutils'); 
@@ -8,7 +8,7 @@ const { shuffle, shuffleCards } = require('../gameutils');
  * Test if the array is shuffled every time
  * Is empty array being returned when input is empty ?
  * If only one elment is in array, return the same array
- 
+ */
 describe(' Shuffle Isolated Functions', function() {
     describe('shuffle()', function() {
         it('should shuffle the array', function() {
@@ -34,7 +34,7 @@ describe(' Shuffle Isolated Functions', function() {
     /*
         Test whether ann array of shuffled images is returned 
         Test whether it has the images required
-    
+    */
     describe('shuffleCards()', function() {
         it('should return an array of shuffled card images', function() {
             const shuffledImages = shuffleCards();
@@ -57,4 +57,3 @@ describe(' Shuffle Isolated Functions', function() {
 });
 
 
-*/

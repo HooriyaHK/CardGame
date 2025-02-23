@@ -1,4 +1,4 @@
-/*// gameutils.js
+// gameutils.js
 // functions isolated to test separately . 
 
 function shuffle(array) {
@@ -25,4 +25,3 @@ module.exports = {
     shuffleCards
 };
 
-*/
